@@ -22,20 +22,15 @@ If there is no best.pt (yoloV8 prediction model) in directiory then
 ````
 make prepare
 ````
-This command will download model from google drive
-z
-Or you can try to teach model in .ipynb file or on [kaggle](https://www.kaggle.com/code/timurbikbulatov/ksa-plates-yolo/notebook)
-
-then model should be saved in ***'./runs/detect/train/weights/best.pt'***
+This command will download model from google drive.
+Or you can try to teach model in .ipynb file or on [kaggle](https://www.kaggle.com/code/timurbikbulatov/ksa-plates-yolo/notebook), then model should be saved in ***'./runs/detect/train/weights/best.pt'***.
+Just move best.pt to current directory (where README.md is located)
 
 ### Run
 
-To run a model, you can put your own KSA plates in "to_predict" directory
-
+To run a model, you can put your own KSA plates in "to_predict" directory.
 Then run command
-
 ````
 make predict
 ````
-
 After a while results should be in "predicted" directory
