@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  yolo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - ./to_predict:/yolo_detection/to_predict
+      - ./predicted:/yolo_detection/predicted
+    working_dir: /yolo_detection
+    command: sleep infinity
