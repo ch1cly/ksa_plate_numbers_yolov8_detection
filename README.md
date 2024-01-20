@@ -2,7 +2,7 @@
 
 ## Run instructions
 ### Prerequisites
-Make sure you have make, pip and docker installed
+Make sure you have *make*, *pip* and *docker-compose* installed
 ````
 pip -V
 ````
