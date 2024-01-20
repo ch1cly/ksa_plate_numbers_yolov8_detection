@@ -28,7 +28,7 @@ Just move best.pt to current directory (where README.md is located)
 
 ### Run
 
-To run a model, you can put your own KSA plates in "to_predict" directory.
+To run a model, you can put your own images of KSA plates in "to_predict" directory.
 Then run command
 ````
 make predict
