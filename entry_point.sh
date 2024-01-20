@@ -9,10 +9,10 @@ for file in to_predict/*; do
     if [ -f "$file" ]; then
         # Формируем команду с использованием текущего файла
         command="yolo detect predict model=/yolo_detection/best.pt source='$PWD/$file' \
-            project='predicted' name='' save=True"
+            project='predicted' name='' save=True conf=0.5"
         
         # Выводим команду для отладки (раскомментируйте, если нужно)
-        echo "$command"
+        # echo "$command"
         
         # Выполняем команду
         $command
