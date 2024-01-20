@@ -4,10 +4,10 @@
 ### Prerequisites
 Make sure you have make, pip and docker installed
 ````
-docker-compose --version
-````
-````
 pip -V
+````
+````
+docker-compose --version
 ````
 ````
 make -v
