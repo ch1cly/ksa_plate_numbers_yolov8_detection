@@ -2,12 +2,15 @@
 
 ## Run instructions
 ### Prerequisites
-Make sure you have pip and docker installed
+Make sure you have make, pip and docker installed
 ````
 docker-compose --version
 ````
 ````
 pip -V
+````
+````
+make -v
 ````
 Should give output like this
 ````
@@ -15,6 +18,9 @@ pip 23.3.2 from /home/.../pip (python 3.10)
 ````
 ````
 Docker Compose version v2.23.0-desktop.1
+````
+````
+GNU Make 4.3
 ````
 
 ### Prepare
