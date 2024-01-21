@@ -1,5 +1,7 @@
 # KSA plate number yoloV8 detector
 
+All code is on [kaggle](https://www.kaggle.com/code/timurbikbulatov/ksa-plates-yolo/notebook) or in ksa-plates-yolo.ipynb 
+
 ## Run instructions
 ### Prerequisites
 Make sure you have *make*, *pip* and *docker-compose* installed
@@ -32,7 +34,7 @@ This command will download model from google drive. If something does not work, 
 
 Or you can try to teach model by yourself in .ipynb file on 
  - [kaggle](https://www.kaggle.com/code/timurbikbulatov/ksa-plates-yolo/notebook), then model should be saved in ***'./yolo_detection/train/weights/best.pt'***
- - colab.google then you need check if [requirements](requirements.txt) and [python version](runtime.txt) satisfied.
+ - [colab.google](http://colab.google/) then you need check if [requirements](requirements.txt) and [python version](runtime.txt) satisfied.
  - local machine then you pbb will need conda with satisfying [requirements](requirements.txt) and [python version](runtime.txt)
 
 then download model and paste it in directory with this README.md file *best choice i guess*
