@@ -28,7 +28,7 @@ If there is no best.pt (yoloV8 prediction model) in directiory then
 ````
 make prepare
 ````
-This command will download model from google drive.
+This command will download model from google drive. If something does not work, here is the [link](https://drive.google.com/drive/folders/1rLuQkBr25QjjQIkTXK3JX018uM_Jz6By?usp=sharing)
 Or you can try to teach model in .ipynb file or on [kaggle](https://www.kaggle.com/code/timurbikbulatov/ksa-plates-yolo/notebook), then model should be saved in ***'./runs/detect/train/weights/best.pt'***.
 Just move best.pt to current directory (where README.md is located)
 

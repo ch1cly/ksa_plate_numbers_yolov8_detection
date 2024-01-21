@@ -5,7 +5,6 @@ prepare:
 	pip install --upgrade pip
 	pip install gdown
 	export PATH="$HOME/.local/bin:$PATH"
-	gdown 1nvbKU_nBIWNtL1B3PHIGO9GU7fWXEipb
-
+	gdown 1M0RonHkx7Y7Dvi0YKNgRFx17vRWQDfq0
 predict:
 	docker-compose up --build
