@@ -39,7 +39,7 @@ Or you can try to teach model by yourself in .ipynb file on
 
 then download model and paste it in directory with this README.md file 
 
-Other runs of validation and test are in ***./yolo_detection/valid*** and ***./yolo_detection/test*** respectively.
+Other runs of validation, test(on validation) and test are in ***./yolo_detection/valid***, ***./yolo_detection/valid1*** and  ***./yolo_detection/test***  respectively.
 Just move best.pt to current directory (where README.md is located)
 
 ### Run
