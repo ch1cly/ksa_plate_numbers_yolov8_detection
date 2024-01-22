@@ -69,3 +69,5 @@ After a while results should be in "predicted" directory
     python -m ipykernel install —name=env_kernel
 #### Run
     jupyter notebook
+
+and unzip .zip file with dataset
